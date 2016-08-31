@@ -16,8 +16,14 @@ namespace TestProject
                 Console.WriteLine(x--);
             }
             Console.WriteLine("O_O");
+            Console.WriteLine(TestMethod());
             Console.WriteLine("Boom!!!");
             Console.Read();
         }
+
+        static string TestMethod(){
+            string testint = "Oh Crap!";
+            return testint;
+            }
     }
 }
