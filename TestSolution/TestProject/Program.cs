@@ -15,6 +15,7 @@ namespace TestProject
             {
                 Console.WriteLine(x--);
             }
+            Console.WriteLine("O_O");
             Console.WriteLine("Boom!!!");
             Console.Read();
         }
